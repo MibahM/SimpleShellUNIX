@@ -1,5 +1,14 @@
 # SimpleShellUNIX
 
+This project is coded in C to be run in a UNIX/Linux system.
+
+Use this line to compile: 
+
+  gcc sish.c –o sish -Wall -Werror -std=gnu99
+
+There should be no warnings or errors. 
+
+
 The goal of this project is to get a deeper grasp on UNIX and shells using forks, piping, and custom built-in functions that function similarly to Bash commands.
 
 This project involves implementing a basic command line interpreter or shell called "sish" that operates similarly to the Linux bash shell. The shell creates child processes to execute commands entered by the user and displays a prompt for further input upon completion. 
